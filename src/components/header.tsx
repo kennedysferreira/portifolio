@@ -42,7 +42,7 @@ export function Header() {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/kennedysferreira/"
+            href="https://github.com/kennedysferreira"
             target="_blank"
           >
             <Linkedin className="size-6 text-slate-400 hover:text-indigo-500 transform duration-300" />
