@@ -36,13 +36,13 @@ export function Header() {
 
       <ul className="ml-1 mt-8 flex items-center">
         <li className="mr-5 text-xs shrink-0">
-          <a href="https://github.com/kennedyferreira" target="_blank">
+          <a href="https://github.com/kennedysferreira" target="_blank">
             <Github className="size-6 text-slate-400 hover:text-indigo-500 transform duration-300" />
           </a>
         </li>
         <li>
           <a
-            href="https://github.com/kennedysferreira"
+            href="https://www.linkedin.com/in/sferreirakennedy/"
             target="_blank"
           >
             <Linkedin className="size-6 text-slate-400 hover:text-indigo-500 transform duration-300" />
