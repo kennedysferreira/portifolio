@@ -6,7 +6,7 @@ const cardStyles = tv({
   variants: {
     variant: {
       primary:
-        "group relative flex flex-col pb-1 transition-all lg:gap-5 md:gap-2 ",
+        "group relative flex flex-col pb-1 transition-all lg:gap-5 gap-2 ",
       secondary:
         "group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50",
     },
@@ -45,9 +45,9 @@ const CardContent = ({
   content?: React.ReactNode;
 }) =>
   subTitle ? (
-    <div className="z-10">
+    <div className="z-10 ">
       <h3 className="leading-snug text-slate-300">{subTitle}</h3>
-      <ul className="mt-2 flex gap-2 flex-wrap" aria-label="Technologies used">
+      <ul className="mt-2 mb-2 flex gap-2 flex-wrap" aria-label="Technologies used">
         {content}
       </ul>
     </div>

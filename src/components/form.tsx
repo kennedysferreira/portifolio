@@ -71,7 +71,7 @@ export function Form() {
             onChange={(e) => setEmail(e.target.value)}
             id="email"
             value={email}
-            placeholder="Leave your email, I would get back to you soon!"
+            placeholder="Leave your email!"
             className="bg-transparent focus:outline-none w-full"
           />
         </div>

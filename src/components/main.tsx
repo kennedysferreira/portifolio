@@ -29,14 +29,13 @@ export function Main() {
         </p>
         <p>
           My approach includes online courses, documentation, and{" "}
-          <span className="text-slate-200">hands-on practice</span> , allowing
-          me{" "}
-          <span className="text-slate-200">to adapt quickly to new tools</span>{" "}
-          . I thrive in dynamic environments, viewing challenges as
-          opportunities for growth. Collaboration is essential; I prioritize
-          empathy and communication for effective teamwork. As a FullStack
-          developer, I am committed to evolving my skills. I embrace new
-          possibilities in the tech landscape.
+          <span className="text-slate-200">hands-on practice</span>, allowing me{" "}
+          <span className="text-slate-200">to adapt quickly to new tools</span>.
+          I thrive in dynamic environments, viewing challenges as opportunities
+          for growth. Collaboration is essential. I prioritize empathy and
+          communication for effective teamwork. As a FullStack developer, I am
+          committed to evolving my skills. I embrace new possibilities in the
+          tech landscape.
         </p>
       </section>
 
@@ -59,7 +58,7 @@ export function Main() {
             <Tag key="7" variant="secondary" children="Next.js" />,
             <Tag key="8" variant="secondary" children="Vite" />,
             <Tag key="9" variant="secondary" children="TailwindCSS" />,
-            <Tag key="10" variant="secondary" children="bootstrap" />,
+            <Tag key="10" variant="secondary" children="Bootstrap" />,
             <Tag key="11" variant="secondary" children="Jest" />,
             <Tag key="12" variant="secondary" children="Github" />,
             <Tag key="13" variant="secondary" children="VsCode" />,
@@ -103,7 +102,7 @@ export function Main() {
           variant={"secondary"}
           href="https://github.com/kennedysferreira/projectFoodExplorer"
           title={FoodExplorer}
-          description="Explore Food is an app for restaurants that allows you to browse menus, add items to your cart, view prices, and make payments, all seamlessly integrated into the application.Project in progress, stay tuned for updates. "
+          description="Explore Food is an app for restaurants that allows you to browse menus, add items to your cart, view prices, and make payments, all seamlessly integrated into the application. Project in progress, stay tuned for updates."
           subTitleOne="Food Explorer"
           contentOne={[
             <Tag key="23" children="Typescript" />,
@@ -111,7 +110,7 @@ export function Main() {
             <Tag key="25" variant="secondary" children="Vite" />,
             <Tag key="26" variant="secondary" children="React" />,
             <Tag key="27" variant="secondary" children="TailwindCSS" />,
-            <Tag key="29" variant="secondary" children="Sqlite" />,
+            <Tag key="29" variant="secondary" children="SQLite" />,
           ]}
         />
         <Cards
