@@ -7,6 +7,7 @@ import FoodExplorer from "../assets/FoodExplorer.png";
 import Inorbit from "../assets/inorbit.png";
 import FavoriteMovies from "../assets/favoriteMovies.png";
 import FocusTimer from "../assets/focusTimer.png";
+import { Certificates } from "./certificates";
 
 export function Main() {
   return (
@@ -93,6 +94,17 @@ export function Main() {
         />
       </section>
 
+      <StickyTitle>Certifications</StickyTitle>
+      <section
+        id="certifications"
+        className="group/list space-y-8 mb-14 scroll-mt-16 md:mb-22 lg:mb-32 lg:scroll-mt-24"
+      >
+       <Certificates technology={"Web Development"} school={"Cod3r"} url={"https://www.udemy.com/certificate/UC-45d1c359-7f63-454b-bfcb-85a22fb3e38d/"}/>
+       <Certificates technology={"Frontend"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/360b4f0b-6033-4360-aed4-1af01f3b92d2"}/>
+       <Certificates technology={"Backend"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/812b4a56-1fe0-46dc-b9c6-3762d2bfb670"}/>
+       <Certificates technology={"Deploy"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/00581010-97a3-4de9-9d93-916ddbd20417"}/>
+      </section>
+
       <StickyTitle>Projects</StickyTitle>
       <section
         id="projects"
@@ -177,7 +189,7 @@ export function Main() {
       </section>
 
       <StickyTitle>Contact</StickyTitle>
-      <section id="contact" className="space-y-8">
+      <section id="contact" className="space-y-4 md:space-y-6 lg:space-y-8 mb-14 scroll-mt-16 md:mb-22 lg:mb-28 lg:scroll-mt-24">
         <h1 className="text-slate-200 text-lg">
           Look for a developer to help you on a project? Tell me about your
           ideas.

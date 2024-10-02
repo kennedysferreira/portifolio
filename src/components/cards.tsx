@@ -1,22 +1,19 @@
 import React, { memo } from "react";
 import { tv, VariantProps } from "tailwind-variants";
 
-// Estilos variantes utilizando tailwind-variants
 const cardStyles = tv({
   variants: {
     variant: {
       primary:
-        "group relative flex flex-col pb-1 transition-all lg:gap-5 gap-2 ",
+        "group relative flex flex-col pb-1 transition-all lg:gap-3 gap-2 ",
       secondary:
         "group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50",
     },
   },
 });
 
-// Tipagem dinâmica de variantes utilizando VariantProps
 type CardVariants = VariantProps<typeof cardStyles>;
 
-// Interface para as propriedades do Card
 interface CardProps extends CardVariants {
   contentOne?: React.ReactNode;
   contentTwo?: React.ReactNode;
@@ -27,10 +24,9 @@ interface CardProps extends CardVariants {
   href?: string;
 }
 
-// Componentes de apresentação: claros e concisos
 const CardHeader = ({ title }: { title?: string | React.ReactNode }) => (
   <header
-    className="font-medium text-sm leading-snug uppercase tracking-wide  sm:col-span-2"
+    className="font-semibold text-xs leading-snug uppercase tracking-wide  sm:col-span-2"
     aria-label={typeof title === "string" ? title : undefined}
   >
     {title}
@@ -53,7 +49,6 @@ const CardContent = ({
     </div>
   ) : null;
 
-// Conteúdo dinâmico baseado no tipo de Card
 const CardBody = ({
   variant,
   title,
@@ -66,7 +61,7 @@ const CardBody = ({
   return variant === "primary" ? (
     <>
       <CardHeader title={title} />
-      {description && <p className="mt-2 text-sm leading-normal">{description}</p>}
+      {description && <p className="text-sm leading-normal">{description}</p>}
       <CardContent subTitle={subTitleOne} content={contentOne} />
       <CardContent subTitle={subTitleTwo} content={contentTwo} />
     </>
@@ -90,7 +85,7 @@ const CardBody = ({
   );
 };
 
-// Componente Cards: usa lógica clara e mantém separação de preocupações
+// Componente Cards: mantém separação de preocupações
 export const Cards = memo(
   ({
     contentOne,
