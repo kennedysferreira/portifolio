@@ -1,4 +1,5 @@
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, FileText } from "lucide-react";
+
 import { LinkMenu } from "./linkMenu";
 
 export function Header() {
@@ -37,8 +38,8 @@ export function Header() {
         </nav>
       </div>
 
-      <ul className="ml-1 mt-8 flex items-center">
-        <li className="mr-5 text-xs shrink-0">
+      <ul className="ml-1 mt-8 flex items-center gap-6">
+        <li>
           <a href="https://github.com/kennedysferreira" target="_blank">
             <Github className="size-6 text-slate-400 hover:text-indigo-500 transform duration-300" />
           </a>
@@ -49,6 +50,11 @@ export function Header() {
             target="_blank"
           >
             <Linkedin className="size-6 text-slate-400 hover:text-indigo-500 transform duration-300" />
+          </a>
+        </li>
+        <li >
+          <a href="https://drive.google.com/file/d/1V68hdl_oKSjjb0yHkv6CnaplBI6aGMwq/view?usp=drive_link" target="_blank">
+            <FileText className="size-6 text-slate-400 hover:text-indigo-500 transform duration-300" />
           </a>
         </li>
       </ul>
