@@ -19,17 +19,11 @@ export function Main() {
         <p>
           I'm <span className="text-slate-200">a full-stack developer</span>,
           based in Setúbal, Portugal. I have a passion for technology that
-          drives my continuous learning. I built my portfolio from scratch and
-          created{" "}
-          <a href="" className="text-slate-200">
-            {" "}
-            a travel planner
-          </a>{" "}
-          project that combines design and functionality.
+          drives my continuous learning.
         </p>
         <p>
-          My approach includes online courses, documentation, and{" "}
-          <span className="text-slate-200">hands-on practice</span>, allowing me{" "}
+          I am constantly developing my skills by{" "}
+          <span className="text-slate-200">hands-on practice</span>,and studying online couses. This allows me{" "}
           <span className="text-slate-200">to adapt quickly to new tools</span>.
           I thrive in dynamic environments, viewing challenges as opportunities
           for growth. Collaboration is essential. I prioritize empathy and
