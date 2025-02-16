@@ -5,8 +5,7 @@ import { Form } from "./form";
 import AmA from "../assets/AmA.png";
 import FoodExplorer from "../assets/FoodExplorer.png";
 import Inorbit from "../assets/inorbit.png";
-import FavoriteMovies from "../assets/favoriteMovies.png";
-import FocusTimer from "../assets/focusTimer.png";
+import Confraria from "../assets/Confraria.png"
 import { Certificates } from "./certificates";
 
 export function Main() {
@@ -99,9 +98,9 @@ export function Main() {
         id="certifications"
         className="group/list space-y-8 mb-14 scroll-mt-16 md:mb-22 lg:mb-32 lg:scroll-mt-24"
       >
+       <Certificates technology={"CS50 Computer Science"} school={"Harvard"} url={"https://www.udemy.com/certificate/UC-45d1c359-7f63-454b-bfcb-85a22fb3e38d/"}/>
+       <Certificates technology={"Web Development"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/c39675b2-1e78-4876-8108-f1b363e3024c"}/>
        <Certificates technology={"Web Development"} school={"Cod3r"} url={"https://www.udemy.com/certificate/UC-45d1c359-7f63-454b-bfcb-85a22fb3e38d/"}/>
-       <Certificates technology={"Frontend"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/360b4f0b-6033-4360-aed4-1af01f3b92d2"}/>
-       <Certificates technology={"Backend"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/812b4a56-1fe0-46dc-b9c6-3762d2bfb670"}/>
        <Certificates technology={"Deploy"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/00581010-97a3-4de9-9d93-916ddbd20417"}/>
       </section>
 
@@ -110,6 +109,20 @@ export function Main() {
         id="projects"
         className="group/list space-y-14 md:space-y-12 lg:space-y-16 mb-14 scroll-mt-16 md:mb-22 lg:mb-32 lg:scroll-mt-24"
       >
+        <Cards
+          variant={"secondary"} 
+          href="https://github.com/kennedysferreira/confraria"
+          title={Confraria}
+          subTitleOne="Confraria"
+          description="Confraria is a system for managing confraternities and groups, facilitating the organization of events, members and interactions."
+          contentOne={[
+            <Tag key="23" children="Typescript" />,
+            <Tag key="28" children="NodeJs" />,
+            <Tag key="25" variant="secondary" children="Vite" />,
+            <Tag key="26" variant="secondary" children="React" />,
+            <Tag key="27" variant="secondary" children="TailwindCSS" />,
+          ]}
+          />
         <Cards
           variant={"secondary"}
           href="https://github.com/kennedysferreira/projectFoodExplorer"
@@ -157,35 +170,7 @@ export function Main() {
             <Tag key="29" variant="secondary" children="Sqlite" />,
           ]}
         />
-
-        <Cards
-          variant={"secondary"}
-          href="https://favoritesmovies.netlify.app/"
-          title={FavoriteMovies}
-          description="Favorite Movies is an app where you can add your favorite films, rate them, provide a description, add tags, and if needed, search by tags or edit the entries"
-          subTitleOne="Favorite Movies"
-          contentOne={[
-            <Tag key="23" children="Typescript" />,
-            <Tag key="28" children="NodeJs" />,
-            <Tag key="25" variant="secondary" children="Vite" />,
-            <Tag key="26" variant="secondary" children="React" />,
-            <Tag key="27" variant="secondary" children="TailwindCSS" />,
-            <Tag key="29" variant="secondary" children="Sqlite" />,
-          ]}
-        />
-        <Cards
-          variant={"secondary"}
-          href="https://github.com/kennedysferreira/projetoTimer2.0"
-          title={FocusTimer}
-          description="This project is a simple timer application built using HTML, CSS, and JavaScript. It allows users to start, stop, and reset a timer, with background music for you to enjoy while you use it"
-          subTitleOne="Focus Timer"
-          contentOne={[
-            <Tag key="26" children="Javascript" />,
-            <Tag key="25" children="HTML" />,
-            <Tag key="27" children="CSS" />,
-            <Tag key="28" variant="secondary" children="Figma" />,
-          ]}
-        />
+       
       </section>
 
       <StickyTitle>Contact</StickyTitle>
