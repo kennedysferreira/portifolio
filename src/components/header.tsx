@@ -53,7 +53,7 @@ export function Header() {
           </a>
         </li>
         <li >
-          <a href="https://drive.google.com/file/d/1V68hdl_oKSjjb0yHkv6CnaplBI6aGMwq/view?usp=drive_link" target="_blank">
+          <a href="https://drive.google.com/file/d/1naoJzQpqdMhG5u6P2NyuqrCrPx1cVM3E/view?usp=drive_link" target="_blank">
             <FileText className="size-6 text-slate-400 hover:text-indigo-500 transform duration-300" />
           </a>
         </li>
