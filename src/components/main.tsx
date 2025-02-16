@@ -23,7 +23,7 @@ export function Main() {
         </p>
         <p>
           I am constantly developing my skills by{" "}
-          <span className="text-slate-200">hands-on practice</span>,and studying online couses. This allows me{" "}
+          <span className="text-slate-200">hands-on practice</span>, and studying online courses. This allows me{" "}
           <span className="text-slate-200">to adapt quickly to new tools</span>.
           I thrive in dynamic environments, viewing challenges as opportunities
           for growth. Collaboration is essential. I prioritize empathy and
