@@ -46,7 +46,7 @@ export function Main() {
       >
         <Cards
           contentOne={[
-            <Tag key="1" children="HTML" />,
+            <Tag key="1" children="HTML5" />,
             <Tag key="2" children="CSS" />,
             <Tag key="27" children="Sass" />,
             <Tag key="3" children="JavaScript" />,
@@ -72,9 +72,9 @@ export function Main() {
 
         <Cards
           contentOne={[
-            <Tag key="14" children="Node.js" />,
-            <Tag key="15" children="Go" />,
-            <Tag key="16" children="Sql" />,
+            <Tag key="14" children="NodeJs" />,
+            <Tag key="15" children="Python" />,
+            <Tag key="16" children="SQL" />,
           ]}
           contentTwo={[
             <Tag key="17" variant="secondary" children="Docker" />,
