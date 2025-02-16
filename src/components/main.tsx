@@ -5,7 +5,7 @@ import { Form } from "./form";
 import AmA from "../assets/AmA.png";
 import FoodExplorer from "../assets/FoodExplorer.png";
 import Inorbit from "../assets/inorbit.png";
-import Confraria from "../assets/Confraria.png"
+import Confraria from "../assets/confraria.png"
 import { Certificates } from "./certificates";
 
 export function Main() {
