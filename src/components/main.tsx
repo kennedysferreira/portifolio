@@ -92,10 +92,11 @@ export function Main() {
         id="certifications"
         className="group/list space-y-8 mb-14 scroll-mt-16 md:mb-22 lg:mb-32 lg:scroll-mt-24"
       >
-       <Certificates technology={"CS50 Computer Science"} school={"Harvard University"} url={"https://certificates.cs50.io/e99b6128-b4a9-48cd-bdda-1394b4667b14.pdf?size=letter"}/>
-       <Certificates technology={"Web Development"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/c39675b2-1e78-4876-8108-f1b363e3024c"}/>
-       <Certificates technology={"Web Development"} school={"Cod3r"} url={"https://www.udemy.com/certificate/UC-45d1c359-7f63-454b-bfcb-85a22fb3e38d/"}/>
-       <Certificates technology={"Deploy"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/00581010-97a3-4de9-9d93-916ddbd20417"}/>
+        <Certificates technology={"Software Analysis and Development."} school={"Uninter"} url={""} />
+        <Certificates technology={"CS50 Computer Science"} school={"Harvard University"} url={"https://certificates.cs50.io/e99b6128-b4a9-48cd-bdda-1394b4667b14.pdf?size=letter"} />
+        <Certificates technology={"Web Development"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/c39675b2-1e78-4876-8108-f1b363e3024c"} />
+        <Certificates technology={"Web Development"} school={"Cod3r"} url={"https://www.udemy.com/certificate/UC-45d1c359-7f63-454b-bfcb-85a22fb3e38d/"} />
+        <Certificates technology={"Deploy"} school={"Rocketseat"} url={"https://app.rocketseat.com.br/certificates/00581010-97a3-4de9-9d93-916ddbd20417"} />
       </section>
 
       <StickyTitle>Projects</StickyTitle>
@@ -104,7 +105,7 @@ export function Main() {
         className="group/list space-y-14 md:space-y-12 lg:space-y-16 mb-14 scroll-mt-16 md:mb-22 lg:mb-32 lg:scroll-mt-24"
       >
         <Cards
-          variant={"secondary"} 
+          variant={"secondary"}
           href="https://github.com/kennedysferreira/confraria"
           title={Confraria}
           subTitleOne="Confraria"
@@ -116,7 +117,7 @@ export function Main() {
             <Tag key="26" variant="secondary" children="React" />,
             <Tag key="27" variant="secondary" children="TailwindCSS" />,
           ]}
-          />
+        />
         <Cards
           variant={"secondary"}
           href="https://github.com/kennedysferreira/projectFoodExplorer"
@@ -164,7 +165,7 @@ export function Main() {
             <Tag key="29" variant="secondary" children="Sqlite" />,
           ]}
         />
-       
+
       </section>
 
       <StickyTitle>Contact</StickyTitle>
